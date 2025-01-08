@@ -12,7 +12,7 @@ attack_history = []  # Store attack logs
 TELEGRAM_BOT_TOKEN = '7901196184:AAGQqaEby634YddKzH1x31m9zXz7T7_zNbA'
 ADMIN_USER_ID = 1300081723
 MONGO_URI = "mongodb+srv://Kamisama:Kamisama@kamisama.m6kon.mongodb.net/"
-DB_NAME = "dake"
+DB_NAME = "sarkar"
 COLLECTION_NAME = "users"
 attack_in_progress = False
 ATTACK_TIME_LIMIT = 300  # Maximum attack duration in seconds
@@ -137,7 +137,7 @@ async def attack(update: Update, context: CallbackContext):
             chat_id=chat_id,
             text=(
                 "*❌ YE PORT WRONG HAI SAHI PORT DALO AUR NAHI PATA TOH YE VIDEO DEKHO ❌*\n\n"
-                "*📺 LINK: https://youtu.be/bBJ9pate5bM?si=CpkKH_FIncGbpXuI*"
+                "*📺 LINK: Sarkar Se Baat Kar bhai*"
             ),
             parse_mode='Markdown'
         )
